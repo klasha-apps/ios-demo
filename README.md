@@ -34,7 +34,7 @@ on the cart icon at the top right icon to see the details of your cart. If the s
 
 On clicking on the cart icon on the top right corner, you are taken to the purchase confirmation page where you see details of your purchase as well as options for pickup and delivery address. Click on 'Continue to Payment' to proceed to pay for the item. This brings up a payment option dialog where you select the Pay with Klasha option to continue. This presents the various options provided by the Klasha payment gateway.
 
-<img width="282" alt="Confirmation" src="https://user-images.githubusercontent.com/69020285/158071105-ef410fc1-ab9f-4d9a-93a2-995f3d82aae7.png"> <img width="282" alt="Payment options" src="https://user-images.githubusercontent.com/69020285/158071124-44888c8d-f033-409a-a935-4d0b04e0faf8.png"> <img width="282" alt="Klasha Payment options" src="https://user-images.githubusercontent.com/69020285/158071241-c6796813-6788-4c0c-b600-2677b0b38b36.png"> 
+<img width="250" alt="Confirmation" src="https://user-images.githubusercontent.com/69020285/158071105-ef410fc1-ab9f-4d9a-93a2-995f3d82aae7.png"> <img width="250" alt="Payment options" src="https://user-images.githubusercontent.com/69020285/158071124-44888c8d-f033-409a-a935-4d0b04e0faf8.png"> <img width="250" alt="Klasha Payment options" src="https://user-images.githubusercontent.com/69020285/158071241-c6796813-6788-4c0c-b600-2677b0b38b36.png"> 
 
 
 ### PAY WITH WALLET DEMO
