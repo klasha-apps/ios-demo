@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		316FD9A12476B70473710EC5 /* Pods_Klasha_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F633C6B286EE84BD3C78317B /* Pods_Klasha_StoreTests.framework */; };
+		B4B78CC527DE072A0040877E /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */; };
+		B4B78CC727DE073C0040877E /* PaymentOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC627DE073C0040877E /* PaymentOptionsViewController.swift */; };
+		B4B78CC927DE07790040877E /* SuccessErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC827DE07790040877E /* SuccessErrorViewController.swift */; };
+		B4B78CCD27DE09400040877E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CCC27DE09400040877E /* R.generated.swift */; };
 		B4DB425027DBDEDA007453DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB424F27DBDEDA007453DA /* AppDelegate.swift */; };
 		B4DB425227DBDEDA007453DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB425127DBDEDA007453DA /* SceneDelegate.swift */; };
-		B4DB425427DBDEDA007453DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB425327DBDEDA007453DA /* ViewController.swift */; };
+		B4DB425427DBDEDA007453DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB425327DBDEDA007453DA /* HomeViewController.swift */; };
 		B4DB425727DBDEDA007453DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB425527DBDEDA007453DA /* Main.storyboard */; };
 		B4DB425927DBDEDE007453DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DB425827DBDEDE007453DA /* Assets.xcassets */; };
 		B4DB425C27DBDEDE007453DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DB425A27DBDEDE007453DA /* LaunchScreen.storyboard */; };
 		B4DB426727DBDEDF007453DA /* Klasha_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB426627DBDEDF007453DA /* Klasha_StoreTests.swift */; };
 		B4DB427127DBDEDF007453DA /* Klasha_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB427027DBDEDF007453DA /* Klasha_StoreUITests.swift */; };
 		B4DB427327DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB427227DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift */; };
+		B4DB428D27DDE381007453DA /* AppDIGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB428C27DDE381007453DA /* AppDIGraph.swift */; };
 		B7F9578A5E9827E7C59A4456 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5037383185A89F7F2A09C56 /* Pods_Klasha_Store_Klasha_StoreUITests.framework */; };
 		D37FCB09009FEE09920B9C55 /* Pods_Klasha_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C7F8E52BB9DC523D1EC7CB /* Pods_Klasha_Store.framework */; };
 /* End PBXBuildFile section */
@@ -43,10 +48,14 @@
 		A83A23150AD3AAC8994C873F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1D40E07CDFC89D14B0182C4 /* Pods-Klasha StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		B2C7F8E52BB9DC523D1EC7CB /* Pods_Klasha_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		B4B78CC627DE073C0040877E /* PaymentOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsViewController.swift; sourceTree = "<group>"; };
+		B4B78CC827DE07790040877E /* SuccessErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessErrorViewController.swift; sourceTree = "<group>"; };
+		B4B78CCC27DE09400040877E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B4DB424C27DBDEDA007453DA /* Klasha Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klasha Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB424F27DBDEDA007453DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DB425127DBDEDA007453DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B4DB425327DBDEDA007453DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4DB425327DBDEDA007453DA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B4DB425627DBDEDA007453DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4DB425827DBDEDE007453DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DB425B27DBDEDE007453DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +65,7 @@
 		B4DB426C27DBDEDF007453DA /* Klasha StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Klasha StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB427027DBDEDF007453DA /* Klasha_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klasha_StoreUITests.swift; sourceTree = "<group>"; };
 		B4DB427227DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klasha_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4DB428C27DDE381007453DA /* AppDIGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIGraph.swift; sourceTree = "<group>"; };
 		B5037383185A89F7F2A09C56 /* Pods_Klasha_Store_Klasha_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store_Klasha_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E225F330B2BB7DE2A0A325A9 /* Pods-Klasha Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.release.xcconfig"; sourceTree = "<group>"; };
 		F1E162691B030956CAB6B2F7 /* Pods-Klasha Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.debug.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +114,7 @@
 		B4DB424327DBDEDA007453DA = {
 			isa = PBXGroup;
 			children = (
+				B4B78CCC27DE09400040877E /* R.generated.swift */,
 				B4DB424E27DBDEDA007453DA /* Klasha Store */,
 				B4DB426527DBDEDF007453DA /* Klasha StoreTests */,
 				B4DB426F27DBDEDF007453DA /* Klasha StoreUITests */,
@@ -127,9 +138,11 @@
 			isa = PBXGroup;
 			children = (
 				B4DB427F27DBDEFC007453DA /* Application */,
-				B4DB428127DBDF2A007453DA /* Controllers */,
-				B4DB428027DBDF1F007453DA /* Storyboards */,
+				B4DB428B27DDE368007453DA /* DI */,
+				B4DB428327DDE233007453DA /* Features */,
 				B4DB428227DBDF33007453DA /* Resources */,
+				B4DB428E27DDE978007453DA /* Extensions */,
+				B4DB428027DBDF1F007453DA /* LaunchScreen */,
 			);
 			path = "Klasha Store";
 			sourceTree = "<group>";
@@ -160,21 +173,12 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		B4DB428027DBDF1F007453DA /* Storyboards */ = {
+		B4DB428027DBDF1F007453DA /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				B4DB425527DBDEDA007453DA /* Main.storyboard */,
 				B4DB425A27DBDEDE007453DA /* LaunchScreen.storyboard */,
 			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		B4DB428127DBDF2A007453DA /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				B4DB425327DBDEDA007453DA /* ViewController.swift */,
-			);
-			path = Controllers;
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		B4DB428227DBDF33007453DA /* Resources */ = {
@@ -184,6 +188,57 @@
 				B4DB425827DBDEDE007453DA /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4DB428327DDE233007453DA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB428527DDE24B007453DA /* Views */,
+				B4DB428A27DDE353007453DA /* View Model */,
+				B4DB428627DDE263007453DA /* Storyboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B4DB428527DDE24B007453DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB425327DBDEDA007453DA /* HomeViewController.swift */,
+				B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */,
+				B4B78CC627DE073C0040877E /* PaymentOptionsViewController.swift */,
+				B4B78CC827DE07790040877E /* SuccessErrorViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4DB428627DDE263007453DA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB425527DBDEDA007453DA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B4DB428A27DDE353007453DA /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B4DB428B27DDE368007453DA /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB428C27DDE381007453DA /* AppDIGraph.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		B4DB428E27DDE978007453DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F67CC3B9CCBEEF3D031CCFFD /* Pods */ = {
@@ -196,7 +251,6 @@
 				0C5C317B5F28A0285E5DEE15 /* Pods-Klasha StoreTests.debug.xcconfig */,
 				B1D40E07CDFC89D14B0182C4 /* Pods-Klasha StoreTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +262,7 @@
 			buildConfigurationList = B4DB427627DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha Store" */;
 			buildPhases = (
 				2681E96D10C9922EF0E21E98 /* [CP] Check Pods Manifest.lock */,
+				B4B78CCB27DE08940040877E /* RSwift + Runscript */,
 				B4DB424827DBDEDA007453DA /* Sources */,
 				B4DB424927DBDEDA007453DA /* Frameworks */,
 				B4DB424A27DBDEDA007453DA /* Resources */,
@@ -432,6 +487,26 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B4B78CCB27DE08940040877E /* RSwift + Runscript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "RSwift + Runscript";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -439,9 +514,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DB425427DBDEDA007453DA /* ViewController.swift in Sources */,
+				B4B78CC727DE073C0040877E /* PaymentOptionsViewController.swift in Sources */,
+				B4DB425427DBDEDA007453DA /* HomeViewController.swift in Sources */,
 				B4DB425027DBDEDA007453DA /* AppDelegate.swift in Sources */,
+				B4B78CCD27DE09400040877E /* R.generated.swift in Sources */,
+				B4B78CC527DE072A0040877E /* ItemDetailsViewController.swift in Sources */,
 				B4DB425227DBDEDA007453DA /* SceneDelegate.swift in Sources */,
+				B4B78CC927DE07790040877E /* SuccessErrorViewController.swift in Sources */,
+				B4DB428D27DDE381007453DA /* AppDIGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
