@@ -1,0 +1,13 @@
+//
+// DEV.xcconfig
+// Klasha Store
+
+//  Created by Emmanuel Omokagbo on 13/03/2022
+//  Copyright © 2022 Emmanuel Omokagbo. All rights reserved.
+	
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+KLASHA_PUBLIC_KEY = FLWPUBK_TEST-dcc5e2d5d6be710a6ce032c82402ad88-X
+KLASHA_ENCRYPTION_KEY = FLWSECK_TEST4d4d7784847f

@@ -7,24 +7,43 @@
 	
 
 import UIKit
+import BottomPopup
 
-class SuccessErrorViewController: UIViewController {
-
+final class SuccessErrorViewController: UIViewController {
+    
+    // MARK: - IBOutlets
+    
+    @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var doneButton: UIButton!
+    
+    // MARK: - Properties
+    
+    var statusImage: UIImage? = R.image.successful()
+    var statusText = AppConstants.PAYMENT_SUCCESSFUL
+    var doneHandler: NoParamHandler?
+    
+    // MARK: -
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        configureViews()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: -
+    
+    fileprivate func configureViews() {
+        icon.image = statusImage
+        statusLabel.text = statusText
+        
     }
-    */
-
+    
+    // MARK: -
+    
+    @IBAction func doneButtonTapped(_ sender: UIButton) {
+        dismiss(animated: true) { [weak self] in
+            self?.doneHandler?()
+        }
+    }
+    
 }

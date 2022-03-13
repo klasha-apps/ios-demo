@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		316FD9A12476B70473710EC5 /* Pods_Klasha_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F633C6B286EE84BD3C78317B /* Pods_Klasha_StoreTests.framework */; };
+		76815EC2CE9E7CA56525A766 /* Pods_Klasha_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B627E101B9F72AB93E5EA4BD /* Pods_Klasha_Store.framework */; };
+		7E623652FFA8A3394F278AB5 /* Pods_Klasha_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C08D3FC46622D289386973B /* Pods_Klasha_StoreTests.framework */; };
+		B494EECC27DE4FCC00BC35AB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B494EECB27DE4FCC00BC35AB /* Config.swift */; };
 		B4B78CC527DE072A0040877E /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */; };
 		B4B78CC727DE073C0040877E /* PaymentOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC627DE073C0040877E /* PaymentOptionsViewController.swift */; };
 		B4B78CC927DE07790040877E /* SuccessErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC827DE07790040877E /* SuccessErrorViewController.swift */; };
 		B4B78CCD27DE09400040877E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CCC27DE09400040877E /* R.generated.swift */; };
+		B4B78CCF27DE0DE90040877E /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CCE27DE0DE90040877E /* Storyboardable.swift */; };
+		B4B78CD127DE0E3A0040877E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CD027DE0E3A0040877E /* AppCoordinator.swift */; };
+		B4B78CD527DE0EEF0040877E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CD427DE0EEF0040877E /* UIViewController+Extension.swift */; };
+		B4B78CD727DE0F2A0040877E /* Code+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CD627DE0F2A0040877E /* Code+Extension.swift */; };
+		B4B78CD927DE106E0040877E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CD827DE106E0040877E /* AppConstants.swift */; };
+		B4B78CDB27DE111B0040877E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CDA27DE111B0040877E /* UIView+Extension.swift */; };
 		B4DB425027DBDEDA007453DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB424F27DBDEDA007453DA /* AppDelegate.swift */; };
 		B4DB425227DBDEDA007453DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB425127DBDEDA007453DA /* SceneDelegate.swift */; };
 		B4DB425427DBDEDA007453DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB425327DBDEDA007453DA /* HomeViewController.swift */; };
@@ -21,9 +29,7 @@
 		B4DB426727DBDEDF007453DA /* Klasha_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB426627DBDEDF007453DA /* Klasha_StoreTests.swift */; };
 		B4DB427127DBDEDF007453DA /* Klasha_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB427027DBDEDF007453DA /* Klasha_StoreUITests.swift */; };
 		B4DB427327DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB427227DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift */; };
-		B4DB428D27DDE381007453DA /* AppDIGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB428C27DDE381007453DA /* AppDIGraph.swift */; };
-		B7F9578A5E9827E7C59A4456 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5037383185A89F7F2A09C56 /* Pods_Klasha_Store_Klasha_StoreUITests.framework */; };
-		D37FCB09009FEE09920B9C55 /* Pods_Klasha_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C7F8E52BB9DC523D1EC7CB /* Pods_Klasha_Store.framework */; };
+		D405A47C8D4B1CA7025DA1C8 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAC2BCFA1DA105C9BE6296F /* Pods_Klasha_Store_Klasha_StoreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5C317B5F28A0285E5DEE15 /* Pods-Klasha StoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.debug.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A83A23150AD3AAC8994C873F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B1D40E07CDFC89D14B0182C4 /* Pods-Klasha StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		B2C7F8E52BB9DC523D1EC7CB /* Pods_Klasha_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0596B4B35B3B46939724F921 /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig"; sourceTree = "<group>"; };
+		0CAC2BCFA1DA105C9BE6296F /* Pods_Klasha_Store_Klasha_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store_Klasha_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		228DBD6098F4223727240E2A /* Pods-Klasha StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		22987FDBD529424153AB242D /* Pods-Klasha Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.release.xcconfig"; sourceTree = "<group>"; };
+		9C08D3FC46622D289386973B /* Pods_Klasha_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B494EEC927DE4E6600BC35AB /* DEV.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
+		B494EECB27DE4FCC00BC35AB /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		B4B78CC627DE073C0040877E /* PaymentOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsViewController.swift; sourceTree = "<group>"; };
 		B4B78CC827DE07790040877E /* SuccessErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessErrorViewController.swift; sourceTree = "<group>"; };
 		B4B78CCC27DE09400040877E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		B4B78CCE27DE0DE90040877E /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		B4B78CD027DE0E3A0040877E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B4B78CD427DE0EEF0040877E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		B4B78CD627DE0F2A0040877E /* Code+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Code+Extension.swift"; sourceTree = "<group>"; };
+		B4B78CD827DE106E0040877E /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B4B78CDA27DE111B0040877E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B4DB424C27DBDEDA007453DA /* Klasha Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klasha Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB424F27DBDEDA007453DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DB425127DBDEDA007453DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,12 +80,10 @@
 		B4DB426C27DBDEDF007453DA /* Klasha StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Klasha StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB427027DBDEDF007453DA /* Klasha_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klasha_StoreUITests.swift; sourceTree = "<group>"; };
 		B4DB427227DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klasha_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B4DB428C27DDE381007453DA /* AppDIGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIGraph.swift; sourceTree = "<group>"; };
-		B5037383185A89F7F2A09C56 /* Pods_Klasha_Store_Klasha_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store_Klasha_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E225F330B2BB7DE2A0A325A9 /* Pods-Klasha Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.release.xcconfig"; sourceTree = "<group>"; };
-		F1E162691B030956CAB6B2F7 /* Pods-Klasha Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.debug.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.debug.xcconfig"; sourceTree = "<group>"; };
-		F633C6B286EE84BD3C78317B /* Pods_Klasha_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7EE313D2BAA5C35F9F72B42 /* Pods-Klasha Store-Klasha StoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B627E101B9F72AB93E5EA4BD /* Pods_Klasha_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683AB2B4C70662944341C51 /* Pods-Klasha StoreTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.dev.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.dev.xcconfig"; sourceTree = "<group>"; };
+		DA64C452B1B355B42EBFF41F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF6695F55F40CE8298831113 /* Pods-Klasha Store.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.dev.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.dev.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37FCB09009FEE09920B9C55 /* Pods_Klasha_Store.framework in Frameworks */,
+				76815EC2CE9E7CA56525A766 /* Pods_Klasha_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316FD9A12476B70473710EC5 /* Pods_Klasha_StoreTests.framework in Frameworks */,
+				7E623652FFA8A3394F278AB5 /* Pods_Klasha_StoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,33 +107,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F9578A5E9827E7C59A4456 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */,
+				D405A47C8D4B1CA7025DA1C8 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C4D68BC6F0918C8BD4B9603 /* Frameworks */ = {
+		B4B78CD227DE0EAD0040877E /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				B2C7F8E52BB9DC523D1EC7CB /* Pods_Klasha_Store.framework */,
-				B5037383185A89F7F2A09C56 /* Pods_Klasha_Store_Klasha_StoreUITests.framework */,
-				F633C6B286EE84BD3C78317B /* Pods_Klasha_StoreTests.framework */,
+				B4B78CD027DE0E3A0040877E /* AppCoordinator.swift */,
 			);
-			name = Frameworks;
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B4B78CD327DE0EB90040877E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B4B78CCE27DE0DE90040877E /* Storyboardable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		B4DB424327DBDEDA007453DA = {
 			isa = PBXGroup;
 			children = (
+				B494EEC927DE4E6600BC35AB /* DEV.xcconfig */,
 				B4B78CCC27DE09400040877E /* R.generated.swift */,
 				B4DB424E27DBDEDA007453DA /* Klasha Store */,
 				B4DB426527DBDEDF007453DA /* Klasha StoreTests */,
 				B4DB426F27DBDEDF007453DA /* Klasha StoreUITests */,
 				B4DB424D27DBDEDA007453DA /* Products */,
 				F67CC3B9CCBEEF3D031CCFFD /* Pods */,
-				0C4D68BC6F0918C8BD4B9603 /* Frameworks */,
+				DAACCC6CD093BD4FE58525D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,10 +158,11 @@
 			isa = PBXGroup;
 			children = (
 				B4DB427F27DBDEFC007453DA /* Application */,
-				B4DB428B27DDE368007453DA /* DI */,
+				B4B78CD327DE0EB90040877E /* Protocols */,
+				B4B78CD227DE0EAD0040877E /* Coordinator */,
 				B4DB428327DDE233007453DA /* Features */,
+				B4DB428E27DDE978007453DA /* Helpers + Extensions */,
 				B4DB428227DBDF33007453DA /* Resources */,
-				B4DB428E27DDE978007453DA /* Extensions */,
 				B4DB428027DBDF1F007453DA /* LaunchScreen */,
 			);
 			path = "Klasha Store";
@@ -194,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				B4DB428527DDE24B007453DA /* Views */,
-				B4DB428A27DDE353007453DA /* View Model */,
 				B4DB428627DDE263007453DA /* Storyboard */,
 			);
 			path = Features;
@@ -219,37 +239,37 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		B4DB428A27DDE353007453DA /* View Model */ = {
+		B4DB428E27DDE978007453DA /* Helpers + Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B4B78CD827DE106E0040877E /* AppConstants.swift */,
+				B4B78CD627DE0F2A0040877E /* Code+Extension.swift */,
+				B4B78CD427DE0EEF0040877E /* UIViewController+Extension.swift */,
+				B4B78CDA27DE111B0040877E /* UIView+Extension.swift */,
+				B494EECB27DE4FCC00BC35AB /* Config.swift */,
 			);
-			path = "View Model";
+			path = "Helpers + Extensions";
 			sourceTree = "<group>";
 		};
-		B4DB428B27DDE368007453DA /* DI */ = {
+		DAACCC6CD093BD4FE58525D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4DB428C27DDE381007453DA /* AppDIGraph.swift */,
+				B627E101B9F72AB93E5EA4BD /* Pods_Klasha_Store.framework */,
+				0CAC2BCFA1DA105C9BE6296F /* Pods_Klasha_Store_Klasha_StoreUITests.framework */,
+				9C08D3FC46622D289386973B /* Pods_Klasha_StoreTests.framework */,
 			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		B4DB428E27DDE978007453DA /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F67CC3B9CCBEEF3D031CCFFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F1E162691B030956CAB6B2F7 /* Pods-Klasha Store.debug.xcconfig */,
-				E225F330B2BB7DE2A0A325A9 /* Pods-Klasha Store.release.xcconfig */,
-				F7EE313D2BAA5C35F9F72B42 /* Pods-Klasha Store-Klasha StoreUITests.debug.xcconfig */,
-				A83A23150AD3AAC8994C873F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */,
-				0C5C317B5F28A0285E5DEE15 /* Pods-Klasha StoreTests.debug.xcconfig */,
-				B1D40E07CDFC89D14B0182C4 /* Pods-Klasha StoreTests.release.xcconfig */,
+				DF6695F55F40CE8298831113 /* Pods-Klasha Store.dev.xcconfig */,
+				22987FDBD529424153AB242D /* Pods-Klasha Store.release.xcconfig */,
+				0596B4B35B3B46939724F921 /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */,
+				DA64C452B1B355B42EBFF41F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */,
+				D683AB2B4C70662944341C51 /* Pods-Klasha StoreTests.dev.xcconfig */,
+				228DBD6098F4223727240E2A /* Pods-Klasha StoreTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -261,12 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB427627DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha Store" */;
 			buildPhases = (
-				2681E96D10C9922EF0E21E98 /* [CP] Check Pods Manifest.lock */,
+				8A60D95A1422DE7A06979EF9 /* [CP] Check Pods Manifest.lock */,
 				B4B78CCB27DE08940040877E /* RSwift + Runscript */,
 				B4DB424827DBDEDA007453DA /* Sources */,
 				B4DB424927DBDEDA007453DA /* Frameworks */,
 				B4DB424A27DBDEDA007453DA /* Resources */,
-				963014B56D146170648438F3 /* [CP] Embed Pods Frameworks */,
+				4990512E9B297D5053D85694 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,7 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB427927DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha StoreTests" */;
 			buildPhases = (
-				45C47BEF68C7F63D8442A717 /* [CP] Check Pods Manifest.lock */,
+				A5367A0C5CA181DC1AF1993A /* [CP] Check Pods Manifest.lock */,
 				B4DB425E27DBDEDF007453DA /* Sources */,
 				B4DB425F27DBDEDF007453DA /* Frameworks */,
 				B4DB426027DBDEDF007453DA /* Resources */,
@@ -300,11 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB427C27DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha StoreUITests" */;
 			buildPhases = (
-				3CA04C597CDB8504737E8E25 /* [CP] Check Pods Manifest.lock */,
+				BFA54F21E5643C3AF0BB70DD /* [CP] Check Pods Manifest.lock */,
 				B4DB426827DBDEDF007453DA /* Sources */,
 				B4DB426927DBDEDF007453DA /* Frameworks */,
 				B4DB426A27DBDEDF007453DA /* Resources */,
-				558FB3FCADB9A48466B914AD /* [CP] Embed Pods Frameworks */,
+				52C6792B2A51970D6B7541B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -387,7 +407,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2681E96D10C9922EF0E21E98 /* [CP] Check Pods Manifest.lock */ = {
+		4990512E9B297D5053D85694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C6792B2A51970D6B7541B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A60D95A1422DE7A06979EF9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,29 +463,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3CA04C597CDB8504737E8E25 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Klasha Store-Klasha StoreUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		45C47BEF68C7F63D8442A717 /* [CP] Check Pods Manifest.lock */ = {
+		A5367A0C5CA181DC1AF1993A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,40 +483,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		558FB3FCADB9A48466B914AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		963014B56D146170648438F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B4B78CCB27DE08940040877E /* RSwift + Runscript */ = {
@@ -507,6 +505,28 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
+		BFA54F21E5643C3AF0BB70DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Klasha Store-Klasha StoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -515,13 +535,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B78CC727DE073C0040877E /* PaymentOptionsViewController.swift in Sources */,
+				B4B78CD527DE0EEF0040877E /* UIViewController+Extension.swift in Sources */,
+				B494EECC27DE4FCC00BC35AB /* Config.swift in Sources */,
+				B4B78CD727DE0F2A0040877E /* Code+Extension.swift in Sources */,
 				B4DB425427DBDEDA007453DA /* HomeViewController.swift in Sources */,
+				B4B78CD127DE0E3A0040877E /* AppCoordinator.swift in Sources */,
 				B4DB425027DBDEDA007453DA /* AppDelegate.swift in Sources */,
 				B4B78CCD27DE09400040877E /* R.generated.swift in Sources */,
 				B4B78CC527DE072A0040877E /* ItemDetailsViewController.swift in Sources */,
+				B4B78CDB27DE111B0040877E /* UIView+Extension.swift in Sources */,
 				B4DB425227DBDEDA007453DA /* SceneDelegate.swift in Sources */,
 				B4B78CC927DE07790040877E /* SuccessErrorViewController.swift in Sources */,
-				B4DB428D27DDE381007453DA /* AppDIGraph.swift in Sources */,
+				B4B78CD927DE106E0040877E /* AppConstants.swift in Sources */,
+				B4B78CCF27DE0DE90040877E /* Storyboardable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,8 +603,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B4DB427427DBDEDF007453DA /* Debug */ = {
+		B4DB427427DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B494EEC927DE4E6600BC35AB /* DEV.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -636,7 +663,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Dev;
 		};
 		B4DB427527DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -693,9 +720,9 @@
 			};
 			name = Release;
 		};
-		B4DB427727DBDEDF007453DA /* Debug */ = {
+		B4DB427727DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1E162691B030956CAB6B2F7 /* Pods-Klasha Store.debug.xcconfig */;
+			baseConfigurationReference = DF6695F55F40CE8298831113 /* Pods-Klasha Store.dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -706,7 +733,6 @@
 				INFOPLIST_FILE = "Klasha Store/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -720,11 +746,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Dev;
 		};
 		B4DB427827DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E225F330B2BB7DE2A0A325A9 /* Pods-Klasha Store.release.xcconfig */;
+			baseConfigurationReference = 22987FDBD529424153AB242D /* Pods-Klasha Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -735,7 +761,6 @@
 				INFOPLIST_FILE = "Klasha Store/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -751,9 +776,9 @@
 			};
 			name = Release;
 		};
-		B4DB427A27DBDEDF007453DA /* Debug */ = {
+		B4DB427A27DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C5C317B5F28A0285E5DEE15 /* Pods-Klasha StoreTests.debug.xcconfig */;
+			baseConfigurationReference = D683AB2B4C70662944341C51 /* Pods-Klasha StoreTests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -770,11 +795,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klasha Store.app/Klasha Store";
 			};
-			name = Debug;
+			name = Dev;
 		};
 		B4DB427B27DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1D40E07CDFC89D14B0182C4 /* Pods-Klasha StoreTests.release.xcconfig */;
+			baseConfigurationReference = 228DBD6098F4223727240E2A /* Pods-Klasha StoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -793,9 +818,9 @@
 			};
 			name = Release;
 		};
-		B4DB427D27DBDEDF007453DA /* Debug */ = {
+		B4DB427D27DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7EE313D2BAA5C35F9F72B42 /* Pods-Klasha Store-Klasha StoreUITests.debug.xcconfig */;
+			baseConfigurationReference = 0596B4B35B3B46939724F921 /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -810,11 +835,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Klasha Store";
 			};
-			name = Debug;
+			name = Dev;
 		};
 		B4DB427E27DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A83A23150AD3AAC8994C873F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */;
+			baseConfigurationReference = DA64C452B1B355B42EBFF41F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -837,7 +862,7 @@
 		B4DB424727DBDEDA007453DA /* Build configuration list for PBXProject "Klasha Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DB427427DBDEDF007453DA /* Debug */,
+				B4DB427427DBDEDF007453DA /* Dev */,
 				B4DB427527DBDEDF007453DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -846,7 +871,7 @@
 		B4DB427627DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DB427727DBDEDF007453DA /* Debug */,
+				B4DB427727DBDEDF007453DA /* Dev */,
 				B4DB427827DBDEDF007453DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -855,7 +880,7 @@
 		B4DB427927DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha StoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DB427A27DBDEDF007453DA /* Debug */,
+				B4DB427A27DBDEDF007453DA /* Dev */,
 				B4DB427B27DBDEDF007453DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -864,7 +889,7 @@
 		B4DB427C27DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha StoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DB427D27DBDEDF007453DA /* Debug */,
+				B4DB427D27DBDEDF007453DA /* Dev */,
 				B4DB427E27DBDEDF007453DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

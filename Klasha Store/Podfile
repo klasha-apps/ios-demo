@@ -8,6 +8,7 @@ target 'Klasha Store' do
   # Pods for Klasha Store
   pod 'klashapay'
   pod 'R.swift'
+  pod 'BottomPopup'
 
   target 'Klasha StoreTests' do
     inherit! :search_paths

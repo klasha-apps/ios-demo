@@ -1,4 +1,5 @@
 PODS:
+  - BottomPopup (0.7.0)
   - DynamicBlurView (4.1.0)
   - IQKeyboardManagerSwift (6.5.9)
   - klashapay (0.1.1):
@@ -84,11 +85,13 @@ PODS:
     - Swinject (= 2.7.1)
 
 DEPENDENCIES:
+  - BottomPopup
   - klashapay
   - R.swift
 
 SPEC REPOS:
   trunk:
+    - BottomPopup
     - DynamicBlurView
     - IQKeyboardManagerSwift
     - klashapay
@@ -106,6 +109,7 @@ SPEC REPOS:
     - SwinjectAutoregistration
 
 SPEC CHECKSUMS:
+  BottomPopup: fe3e284628532f99093ae68c592c6b9d392c972d
   DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   klashapay: 295adf15112ac509b11f9bab1b23742a31d982e9
@@ -122,6 +126,6 @@ SPEC CHECKSUMS:
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   SwinjectAutoregistration: e83e362da3ca9c64a68290e89efbc40e378dff12
 
-PODFILE CHECKSUM: 634336fa1ed276d550625dcb4b78624a11c39618
+PODFILE CHECKSUM: f12d6323979ebf365005b0a3838d64353cfd1229
 
 COCOAPODS: 1.11.2
