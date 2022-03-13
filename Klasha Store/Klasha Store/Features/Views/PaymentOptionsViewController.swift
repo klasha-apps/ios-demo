@@ -46,7 +46,7 @@ final class PaymentOptionsViewController: UIViewController {
             fatalError(AppConstants.FAILED_TO_INSTANTIATE_KLASHA_CONTROLLER)
         }
         let nav = UINavigationController(rootViewController: controller)
-        controller.amount = "12000"
+        controller.amount = "1000"
         controller.delegate = self
         nav.navigationBar.backgroundColor = .clear
         UINavigationBar.appearance().barTintColor = UIColor(hex: AppConstants.KLASHA_NAV_COLOR)
