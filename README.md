@@ -24,7 +24,9 @@ Click on the play button at the top left corner to build and run the project
 
 ### HOME
 
-After running the app, you are taken to the home page where you see the particular shoe for sale. You can add and remove this shoe from cart. After adding to cart, you click on the cart icon at the top right icon to see the details of your cart. If the shoe has not been added to cart, you won't be able to see details of the item in your cart.
+After running the app, you are taken to the home page where you see the particular shoe for sale. You can add and remove this shoe from cart. After adding to cart, you click 
+
+on the cart icon at the top right icon to see the details of your cart. If the shoe has not been added to cart, you won't be able to see details of the item in your cart.
 
 <img width="282" alt="Home" src="https://user-images.githubusercontent.com/69020285/158070944-265057ac-04c0-4a37-aa1d-7fe0c4f5fead.png">
 
@@ -35,8 +37,14 @@ On clicking on the cart icon on the top right corner, you are taken to the purch
 <img width="282" alt="Confirmation" src="https://user-images.githubusercontent.com/69020285/158071105-ef410fc1-ab9f-4d9a-93a2-995f3d82aae7.png"> <img width="282" alt="Payment options" src="https://user-images.githubusercontent.com/69020285/158071124-44888c8d-f033-409a-a935-4d0b04e0faf8.png"> <img width="282" alt="Klasha Payment options" src="https://user-images.githubusercontent.com/69020285/158071241-c6796813-6788-4c0c-b600-2677b0b38b36.png"> 
 
 
+### PAY WITH WALLET DEMO
+
+https://user-images.githubusercontent.com/69020285/158071331-d0ae3b0a-c387-46a8-9257-135835cf6c48.mp4
 
 
+### PAY WITH CARD DEMO
+
+https://user-images.githubusercontent.com/69020285/158071417-0947afc7-81ff-4d98-8d39-ff4b553da92b.mp4
 
 
 
