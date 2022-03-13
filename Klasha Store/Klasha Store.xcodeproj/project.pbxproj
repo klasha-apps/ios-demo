@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76815EC2CE9E7CA56525A766 /* Pods_Klasha_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B627E101B9F72AB93E5EA4BD /* Pods_Klasha_Store.framework */; };
-		7E623652FFA8A3394F278AB5 /* Pods_Klasha_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C08D3FC46622D289386973B /* Pods_Klasha_StoreTests.framework */; };
+		264A94D32A59F63A61E2FCF3 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA564D87F678254DB20167FB /* Pods_Klasha_Store_Klasha_StoreUITests.framework */; };
 		B494EECC27DE4FCC00BC35AB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B494EECB27DE4FCC00BC35AB /* Config.swift */; };
 		B4B78CC527DE072A0040877E /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */; };
 		B4B78CC727DE073C0040877E /* PaymentOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B78CC627DE073C0040877E /* PaymentOptionsViewController.swift */; };
@@ -29,7 +28,8 @@
 		B4DB426727DBDEDF007453DA /* Klasha_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB426627DBDEDF007453DA /* Klasha_StoreTests.swift */; };
 		B4DB427127DBDEDF007453DA /* Klasha_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB427027DBDEDF007453DA /* Klasha_StoreUITests.swift */; };
 		B4DB427327DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB427227DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift */; };
-		D405A47C8D4B1CA7025DA1C8 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAC2BCFA1DA105C9BE6296F /* Pods_Klasha_Store_Klasha_StoreUITests.framework */; };
+		C4E463A7F11F87FEE6CF401F /* Pods_Klasha_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC8A6EAF6E53948EB4C74C1 /* Pods_Klasha_StoreTests.framework */; };
+		D4C208DF58F7D34CB80D9BD5 /* Pods_Klasha_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0950515A1A496FC52536BDFA /* Pods_Klasha_Store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0596B4B35B3B46939724F921 /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig"; sourceTree = "<group>"; };
-		0CAC2BCFA1DA105C9BE6296F /* Pods_Klasha_Store_Klasha_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store_Klasha_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		228DBD6098F4223727240E2A /* Pods-Klasha StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		22987FDBD529424153AB242D /* Pods-Klasha Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.release.xcconfig"; sourceTree = "<group>"; };
-		9C08D3FC46622D289386973B /* Pods_Klasha_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0950515A1A496FC52536BDFA /* Pods_Klasha_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB22826C8471391C2A989A3 /* Pods-Klasha Store.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.dev.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.dev.xcconfig"; sourceTree = "<group>"; };
+		1CC8A6EAF6E53948EB4C74C1 /* Pods_Klasha_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBD0922BABBF66D07C8018C /* Pods-Klasha StoreTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.dev.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.dev.xcconfig"; sourceTree = "<group>"; };
+		8A5BDF2E5842B00A4626B341 /* Pods-Klasha StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		996D24BDA40E3399719076DA /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD49AFD53DF6A4E86264606F /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig"; sourceTree = "<group>"; };
 		B494EEC927DE4E6600BC35AB /* DEV.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DEV.xcconfig; sourceTree = "<group>"; };
 		B494EECB27DE4FCC00BC35AB /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B4B78CC427DE072A0040877E /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
@@ -80,10 +82,8 @@
 		B4DB426C27DBDEDF007453DA /* Klasha StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Klasha StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB427027DBDEDF007453DA /* Klasha_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klasha_StoreUITests.swift; sourceTree = "<group>"; };
 		B4DB427227DBDEDF007453DA /* Klasha_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klasha_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B627E101B9F72AB93E5EA4BD /* Pods_Klasha_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D683AB2B4C70662944341C51 /* Pods-Klasha StoreTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha StoreTests.dev.xcconfig"; path = "Target Support Files/Pods-Klasha StoreTests/Pods-Klasha StoreTests.dev.xcconfig"; sourceTree = "<group>"; };
-		DA64C452B1B355B42EBFF41F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DF6695F55F40CE8298831113 /* Pods-Klasha Store.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.dev.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.dev.xcconfig"; sourceTree = "<group>"; };
+		D7F825E67C1617B2DE9E4DD1 /* Pods-Klasha Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klasha Store.release.xcconfig"; path = "Target Support Files/Pods-Klasha Store/Pods-Klasha Store.release.xcconfig"; sourceTree = "<group>"; };
+		FA564D87F678254DB20167FB /* Pods_Klasha_Store_Klasha_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klasha_Store_Klasha_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76815EC2CE9E7CA56525A766 /* Pods_Klasha_Store.framework in Frameworks */,
+				D4C208DF58F7D34CB80D9BD5 /* Pods_Klasha_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E623652FFA8A3394F278AB5 /* Pods_Klasha_StoreTests.framework in Frameworks */,
+				C4E463A7F11F87FEE6CF401F /* Pods_Klasha_StoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,13 +107,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D405A47C8D4B1CA7025DA1C8 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */,
+				264A94D32A59F63A61E2FCF3 /* Pods_Klasha_Store_Klasha_StoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36BBF7C8C0F49D8B7493E4F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0950515A1A496FC52536BDFA /* Pods_Klasha_Store.framework */,
+				FA564D87F678254DB20167FB /* Pods_Klasha_Store_Klasha_StoreUITests.framework */,
+				1CC8A6EAF6E53948EB4C74C1 /* Pods_Klasha_StoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4B78CD227DE0EAD0040877E /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +150,7 @@
 				B4DB426F27DBDEDF007453DA /* Klasha StoreUITests */,
 				B4DB424D27DBDEDA007453DA /* Products */,
 				F67CC3B9CCBEEF3D031CCFFD /* Pods */,
-				DAACCC6CD093BD4FE58525D5 /* Frameworks */,
+				36BBF7C8C0F49D8B7493E4F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,25 +261,15 @@
 			path = "Helpers + Extensions";
 			sourceTree = "<group>";
 		};
-		DAACCC6CD093BD4FE58525D5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B627E101B9F72AB93E5EA4BD /* Pods_Klasha_Store.framework */,
-				0CAC2BCFA1DA105C9BE6296F /* Pods_Klasha_Store_Klasha_StoreUITests.framework */,
-				9C08D3FC46622D289386973B /* Pods_Klasha_StoreTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F67CC3B9CCBEEF3D031CCFFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF6695F55F40CE8298831113 /* Pods-Klasha Store.dev.xcconfig */,
-				22987FDBD529424153AB242D /* Pods-Klasha Store.release.xcconfig */,
-				0596B4B35B3B46939724F921 /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */,
-				DA64C452B1B355B42EBFF41F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */,
-				D683AB2B4C70662944341C51 /* Pods-Klasha StoreTests.dev.xcconfig */,
-				228DBD6098F4223727240E2A /* Pods-Klasha StoreTests.release.xcconfig */,
+				0AB22826C8471391C2A989A3 /* Pods-Klasha Store.dev.xcconfig */,
+				D7F825E67C1617B2DE9E4DD1 /* Pods-Klasha Store.release.xcconfig */,
+				AD49AFD53DF6A4E86264606F /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */,
+				996D24BDA40E3399719076DA /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */,
+				7BBD0922BABBF66D07C8018C /* Pods-Klasha StoreTests.dev.xcconfig */,
+				8A5BDF2E5842B00A4626B341 /* Pods-Klasha StoreTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -281,12 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB427627DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha Store" */;
 			buildPhases = (
-				8A60D95A1422DE7A06979EF9 /* [CP] Check Pods Manifest.lock */,
+				765A729BECBE64B1F9A04B3A /* [CP] Check Pods Manifest.lock */,
 				B4B78CCB27DE08940040877E /* RSwift + Runscript */,
 				B4DB424827DBDEDA007453DA /* Sources */,
 				B4DB424927DBDEDA007453DA /* Frameworks */,
 				B4DB424A27DBDEDA007453DA /* Resources */,
-				4990512E9B297D5053D85694 /* [CP] Embed Pods Frameworks */,
+				0DB924D9DB5974FFE69F5C9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,7 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB427927DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha StoreTests" */;
 			buildPhases = (
-				A5367A0C5CA181DC1AF1993A /* [CP] Check Pods Manifest.lock */,
+				699DEAECF86B73E9C56773D9 /* [CP] Check Pods Manifest.lock */,
 				B4DB425E27DBDEDF007453DA /* Sources */,
 				B4DB425F27DBDEDF007453DA /* Frameworks */,
 				B4DB426027DBDEDF007453DA /* Resources */,
@@ -320,11 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DB427C27DBDEDF007453DA /* Build configuration list for PBXNativeTarget "Klasha StoreUITests" */;
 			buildPhases = (
-				BFA54F21E5643C3AF0BB70DD /* [CP] Check Pods Manifest.lock */,
+				4E627FC9AF1A60F896E178E1 /* [CP] Check Pods Manifest.lock */,
 				B4DB426827DBDEDF007453DA /* Sources */,
 				B4DB426927DBDEDF007453DA /* Frameworks */,
 				B4DB426A27DBDEDF007453DA /* Resources */,
-				52C6792B2A51970D6B7541B7 /* [CP] Embed Pods Frameworks */,
+				95EBB658EE91B183890E803F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -407,7 +407,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4990512E9B297D5053D85694 /* [CP] Embed Pods Frameworks */ = {
+		0DB924D9DB5974FFE69F5C9C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,24 +424,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store/Pods-Klasha Store-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		52C6792B2A51970D6B7541B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A60D95A1422DE7A06979EF9 /* [CP] Check Pods Manifest.lock */ = {
+		4E627FC9AF1A60F896E178E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,14 +439,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Klasha Store-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Klasha Store-Klasha StoreUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5367A0C5CA181DC1AF1993A /* [CP] Check Pods Manifest.lock */ = {
+		699DEAECF86B73E9C56773D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,27 +468,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B4B78CCB27DE08940040877E /* RSwift + Runscript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "RSwift + Runscript";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				$SRCROOT/R.generated.swift,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
-		};
-		BFA54F21E5643C3AF0BB70DD /* [CP] Check Pods Manifest.lock */ = {
+		765A729BECBE64B1F9A04B3A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,12 +483,49 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Klasha Store-Klasha StoreUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Klasha Store-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		95EBB658EE91B183890E803F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klasha Store-Klasha StoreUITests/Pods-Klasha Store-Klasha StoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B78CCB27DE08940040877E /* RSwift + Runscript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "RSwift + Runscript";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -722,7 +722,7 @@
 		};
 		B4DB427727DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF6695F55F40CE8298831113 /* Pods-Klasha Store.dev.xcconfig */;
+			baseConfigurationReference = 0AB22826C8471391C2A989A3 /* Pods-Klasha Store.dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -750,7 +750,7 @@
 		};
 		B4DB427827DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22987FDBD529424153AB242D /* Pods-Klasha Store.release.xcconfig */;
+			baseConfigurationReference = D7F825E67C1617B2DE9E4DD1 /* Pods-Klasha Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -778,7 +778,7 @@
 		};
 		B4DB427A27DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D683AB2B4C70662944341C51 /* Pods-Klasha StoreTests.dev.xcconfig */;
+			baseConfigurationReference = 7BBD0922BABBF66D07C8018C /* Pods-Klasha StoreTests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -799,7 +799,7 @@
 		};
 		B4DB427B27DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 228DBD6098F4223727240E2A /* Pods-Klasha StoreTests.release.xcconfig */;
+			baseConfigurationReference = 8A5BDF2E5842B00A4626B341 /* Pods-Klasha StoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -820,7 +820,7 @@
 		};
 		B4DB427D27DBDEDF007453DA /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0596B4B35B3B46939724F921 /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */;
+			baseConfigurationReference = AD49AFD53DF6A4E86264606F /* Pods-Klasha Store-Klasha StoreUITests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -839,7 +839,7 @@
 		};
 		B4DB427E27DBDEDF007453DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA64C452B1B355B42EBFF41F /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */;
+			baseConfigurationReference = 996D24BDA40E3399719076DA /* Pods-Klasha Store-Klasha StoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

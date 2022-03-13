@@ -7,7 +7,6 @@
 
 
 import UIKit
-import BottomPopup
 import klashapay
 
 final class PaymentOptionsViewController: UIViewController {
@@ -19,8 +18,6 @@ final class PaymentOptionsViewController: UIViewController {
     @IBOutlet weak var payWithKlasha: UIImageView!
     
     // MARK: -
-//    override var popupHeight: CGFloat { 500 }
-//    override var popupTopCornerRadius: CGFloat { 20 }
     var successfulPayment: (() -> Void)?
     var unSuccessfulPayment: (() -> Void)?
     

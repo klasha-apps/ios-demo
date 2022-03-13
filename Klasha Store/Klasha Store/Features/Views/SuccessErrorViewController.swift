@@ -7,7 +7,6 @@
 	
 
 import UIKit
-import BottomPopup
 
 final class SuccessErrorViewController: UIViewController {
     
